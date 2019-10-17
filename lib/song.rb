@@ -12,7 +12,5 @@ class Song
     @@all
   end
   
-  def self.song_count
-    @@all.size 
-  end
+  
 end
