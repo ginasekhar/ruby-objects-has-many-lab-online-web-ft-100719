@@ -8,8 +8,11 @@ class Song
     @@all << self
   end
  
- add_song_by_name(name)
- 
+ def add_song_by_name(name)
+    @name = name
+    @@all << self
+  end
+  
   def self.all
     @@all
   end
