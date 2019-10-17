@@ -13,10 +13,7 @@ class Post
   end
   
   def author_name
-    if @author 
-      @author.name
-    else
-      NIL
-    end
+    @author ? @author.name : NIL
   end
+  
 end
